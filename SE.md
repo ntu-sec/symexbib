@@ -3,11 +3,11 @@
 |[Hercules: Reproducing Crashes in Real-World Application Binaries](Hercules: Reproducing Crashes in Real-World Application Binaries)|ICSE |2015|Pham, Van-Thuan and Ng, Wei Boon|
 |[Feedback-driven dynamic invariant discovery](http://doi.acm.org/10.1145/2610384.2610389)|ISSTA|2014|Zhang, Lingming and Yang, Guowei and Rungta, Neha and Person, Suzette and Khurshid, Sarfraz|
 |[Using test case reduction and prioritization to improve symbolic execution](http://doi.acm.org/10.1145/2610384.2610392)|ISSTA|2014|Zhang, Chaoqiang and Groce, Alex and Alipour, Mohammad Amin|
-|[How we get there: a context-guided search strategy in concolic testing](http://doi.acm.org/10.1145/2635868.2635872)|ESEC/FSE |2014|Seo, Hyunmin and Kim, Sunghun|
+|[How we get there: a context-guided search strategy in concolic testing](http://doi.acm.org/10.1145/2635868.2635872)|ESEC/FSE|2014|Seo, Hyunmin and Kim, Sunghun|
 |[Compositional symbolic execution with memoized replay](http://repositories.lib.utexas.edu/handle/2152/26006)||2014|Qiu, Rui|
 |[SymWalker: Symbolic Execution in Routines of Binary Code](http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7016986)|CIS |2014|Ma, Jinxin and Dong, Guowei and Zhang, Puhan and Guo, Tao|
 |[SymJS: automatic symbolic testing of JavaScript web applications](http://dl.acm.org/citation.cfm?id=2635868.2635913&coll=DL&dl=GUIDE&CFID=625195154&CFTOKEN=98525666)|ESEC/FSE |2014|Li, Guodong and Andreasen, Esben and Ghosh, Indradeep|
-|[Extending a search-based test generator with adaptive dynamic symbolic execution.](http://doi.acm.org/10.1145/2610384.2628049)|ISSTA|2014|Galeotti, Juan Pablo and Fraser, Gordon and Arcuri, Andrea|
+|[Extending a search-based test generator with adaptive dynamic symbolic execution](http://doi.acm.org/10.1145/2610384.2628049)|ISSTA|2014|Galeotti, Juan Pablo and Fraser, Gordon and Arcuri, Andrea|
 |[Statistical symbolic execution with informed sampling](http://dl.acm.org/citation.cfm?id=2635868.2635899&coll=DL&dl=GUIDE&CFID=625195154&CFTOKEN=98525666)|ESEC/FSE |2014|Filieri, Antonio and P{\u{a}}s{\u{a}}reanu, Corina S and Visser, Willem and Geldenhuys, Jaco|
 |[Prototyping symbolic execution engines for interpreted languages](http://doi.acm.org/10.1145/2541940.2541977)|ASPLOS|2014|Bucur, Stefan and Kinder, Johannes and Candea, George|
 |[Finding trojan message vulnerabilities in distributed systems](http://doi.acm.org/10.1145/2541940.2541984)|ASPLOS|2014|Banabic, Radu and Candea, George and Guerraoui, Rachid|
@@ -29,11 +29,28 @@
 |[Redundant State Detection for Dynamic Symbolic Execution](http://dblp.uni-trier.de/https://www.usenix.org/conference/atc13/technical-sessions/presentation/bugrara)|USENIX ATC |2013|Bugrara, Suhabe and Engler, Dawson R|
 |[Billions and billions of constraints: whitebox fuzz testing in production](http://dl.acm.org/citation.cfm?id=2486805)|ICSE |2013|Bounimova, Ella and Godefroid, Patrice and Molnar, David A|
 |[SmacC: A Retargetable Symbolic Execution Engine.](http://dx.doi.org/10.1007/978-3-319-02444-8_40)|ATVA|2013|Biere, Armin and Knoop, Jens and Kov{\'a}cs, Laura and Zwirchmayr, Jakob|
-|[Input-covering schedules for multithreaded programs](http://doi.acm.org/10.1145/2509136.2509508)|OOPSLA |2013|Bergan, Tom and Ceze, Luis and Grossman, Dan|
+|[Input-covering schedules for multithreaded programs](http://doi.acm.org/10.1145/2509136.2509508)|OOPSLA|2013|Bergan, Tom and Ceze, Luis and Grossman, Dan|
 |[A generic framework for symbolic execution](http://link.springer.com/chapter/10.1007/978-3-319-02654-1_16)|Software Language Engineering|2013|Arusoaie, A and Lucanu, D and Rusu, V|
 |[An orchestrated survey of methodologies for automated software test case generation](http://dx.doi.org/10.1016/j.jss.2013.02.061)|JSS|2013|Anand, Saswat and Burke, Edmund K and Chen, Tsong Yueh and Clark, John A and Cohen, Myra B and Grieskamp, Wolfgang and Harman, Mark and Harrold, Mary Jean and McMinn, Phil|
+|[Memoized symbolic execution](http://doi.acm.org/10.1145/2338965.2336771)|ISSTA|2012|Yang, Guowei and P{\u{a}}s{\u{a}}reanu, Corina S and Khurshid, Sarfraz|
+|[Green: reducing, reusing and recycling constraints in program analysis](http://doi.acm.org/10.1145/2393596.2393665)|ESEC/FSE|2012|Visser, Willem and Geldenhuys, Jaco and Dwyer, Matthew B|
+|[Higher-order symbolic execution via contracts](http://doi.acm.org/10.1145/2384616.2384655)|OOPSLA|2012|Tobin-Hochstadt, Sam and Van Horn, David|
+|[Loop Invariant Symbolic Execution for Parallel Programs](http://dx.doi.org/10.1007/978-3-642-27940-9_27)|VMCAI|2012|Siegel, Stephen F and Zirkel, Timothy K|
+|[Scaling symbolic execution using ranged analysis](http://doi.acm.org/10.1145/2384616.2384654)|OOPSLA|2012|Siddiqui, Junaid Haroon and Khurshid, Sarfraz|
+|[Integration Testing of Software Product Lines Using Compositional Symbolic Execution.](http://dx.doi.org/10.1007/978-3-642-28872-2_19)|FASE|2012|Shi, Jiangfan and Cohen, Myra B and Dwyer, Matthew B|
+|[SymDrive: Testing Drivers without Devices](http://dblp.uni-trier.de/https://www.usenix.org/conference/osdi12/technical-sessions/presentation/renzelmann)|OSDI|2012|Renzelmann, Matthew J and Kadav, Asim and Swift, Michael M|
+|[Rubicon: bounded verification of web applications](http://doi.acm.org/10.1145/2393596.2393667)|ESEC/FSE|2012|Near, Joseph P and Jackson, Daniel|
+|[GKLEE: concolic verification and test generation for GPUs](http://doi.acm.org/10.1145/2145816.2145844)|PPOPP|2012|Li, Guodong and Li, Peng and Sawaya, Geoffrey and Gopalakrishnan, Ganesh and Ghosh, Indradeep and Rajan, Sreeranga P|
 |[Efficient state merging in symbolic execution](http://dl.acm.org/citation.cfm?doid=2254064.2254088)|PLDI |2012|Kuznetsov, Volodymyr and Kinder, Johannes and Bucur, Stefan and Candea, George|
+|[A Scalable Distributed Concolic Testing Approach: An Empirical Evaluation.](http://dx.doi.org/10.1109/ICST.2012.114)|ICST|2012|Kim, Moonzoo and Kim, Yunho and Rothermel, Gregg|
+|[Data races vs. data race bugs: telling the difference with portend](http://doi.acm.org/10.1145/2150976.2150997)|ASPLOS|2012|Kasikci, Baris and Zamfir, Cristian and Candea, George|
+|[Augmented dynamic symbolic execution](http://doi.acm.org/10.1145/2351676.2351716)|ASE|2012|Jamrozik, Konrad and Fraser, Gordon and Tillmann, Nikolai and de Halleux, Jonathan|
+|[TRACER: A Symbolic Execution Tool for Verification](http://dx.doi.org/10.1007/978-3-642-31424-7_61)|CAV|2012|Jaffar, Joxan and Murali, Vijayaraghavan and Navas, Jorge A and Santosa, Andrew E|
+|[Probabilistic Symbolic Execution](http://doi.acm.org/10.1145/2338965.2336773)|ISSTA|2012|Geldenhuys, Jaco and Dwyer, Matthew B and Visser, Willem|
 |[The S2E Platform: Design, Implementation, and Applications](http://dl.acm.org/citation.cfm?doid=2110356.2110358)|TOCS|2012|Chipounov, Vitaly and Kuznetsov, Volodymyr and Candea, George|
+|[Symbolic Execution with Interval Solving and Meta-heuristic Search](http://dx.doi.org/10.1109/ICST.2012.91)|ICST|2012|Borges, Mateus and d'Amorim, Marcelo and Anand, Saswat and Bushnell, David H and P{\u{a}}s{\u{a}}reanu, Corina S|
+|[Automated concolic testing of smartphone apps](http://doi.acm.org/10.1145/2393596.2393666)|ESEC/FSE|2012|Anand, Saswat and Naik, Mayur and Harrold, Mary Jean and Yang, Hongseok|
+|[Computational verification of C protocol implementations by symbolic execution](http://doi.acm.org/10.1145/2382196.2382271)|CCS|2012|Aizatulin, Mihhail and Gordon, Andrew D and J{\"u}rjens, Jan|
 |[Directed symbolic execution](http://dl.acm.org/citation.cfm?id=2041552.2041563&coll=DL&dl=GUIDE&CFID=477901319&CFTOKEN=83338306)|SAS |2011|Ma, Kin-Keung and Phang, Khoo Yit and Foster, Jeffrey S and Hicks, Michael|
 |[Symbolic execution for software testing in practice: preliminary assessment](http://portal.acm.org/citation.cfm?doid=1985793.1985995)|ICSE |2011|Cadar, Cristian and Godefroid, P and Khurshid, S and Pasareanu, C S and Sen, Koushik and Tillmann, N and Visser, W|
 |[Parallel symbolic execution for automated real-world software testing](http://portal.acm.org/citation.cfm?doid=1966445.1966463)|EuroSys |2011|Bucur, Stefan and Ureche, Vlad and Zamfir, Cristian and Candea, George|
@@ -64,7 +81,7 @@
 |[Automating Mimicry Attacks Using Static Binary Analysis](http://dblp.uni-trier.de/https://www.usenix.org/conference/14th-usenix-security-symposium/automating-mimicry-attacks-using-static-binary-analysis)|USENIX Security |2005|Kruegel, Christopher and Kirda, Engin and Mutz, Darren and Robertson, William K and Vigna, Giovanni|
 |[Generalizing symbolic execution to library classes](http://doi.acm.org/10.1145/1108792.1108817)|PASTE|2005|Khurshid, Sarfraz and Suen, Yuk Lai|
 |[DART: directed automated random testing](http://portal.acm.org/citation.cfm?doid=1065010.1065036)|PLDI |2005|Godefroid, Patrice and Klarlund, Nils and Sen, Koushik|
-|[Execution Generated Test Cases: How to Make Systems Code Crash Itself.](http://dx.doi.org/10.1007/11537328_2)|SPIN|2005|Cadar, Cristian and Engler, Dawson R|
+|[Execution Generated Test Cases: How to Make Systems Code Crash Itself](http://dx.doi.org/10.1007/11537328_2)|SPIN|2005|Cadar, Cristian and Engler, Dawson R|
 |[Test input generation with java PathFinder](http://doi.acm.org/10.1145/1007512.1007526)|ISSTA|2004|Visser, Willem and P{\u{a}}s{\u{a}}reanu, Corina S and Khurshid, Sarfraz|
 |[A Comparison of Bug Finding Tools for Java.](http://doi.ieeecomputersociety.org/10.1109/ISSRE.2004.1)|ISSRE|2004|Rutar, Nick and Almazan, Christian B and Foster, Jeffrey S|
 |[Verification of Java Programs Using Symbolic Execution and Invariant Generation](http://dx.doi.org/10.1007/978-3-540-24732-6_13)|SPIN|2004|P{\u{a}}s{\u{a}}reanu, Corina S and Visser, Willem|
