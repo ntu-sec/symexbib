@@ -140,7 +140,7 @@
 |[Panalyst: privacy-aware remote error analysis on commodity software](http://dl.acm.org/citation.cfm?id=1496711.1496731&coll=DL&dl=GUIDE&CFID=478418578&CFTOKEN=14370298) |2008 |USENIX Security |Wang, Rui and Wang, XiaoFeng and Li, Zhuowei|
 |[Combining symbolic execution with model checking to verify parallel numerical programs](http://dl.acm.org/citation.cfm?id=1348250.1348256&coll=DL&dl=GUIDE&CFID=478418578&CFTOKEN=14370298) |2008 |TOSEM |Siegel, Stephen F and Mironova, Anastasia and Avrunin, George S and Clarke, Lori A|
 |[EXE: Automatically Generating Inputs of Death](http://dl.acm.org/citation.cfm?id=1455518.1455522&coll=DL&dl=GUIDE&CFID=477132101&CFTOKEN=55639577) |2008 |TISSEC |Cadar, Cristian and Ganesh, Vijay and Pawlowski, Peter M and Dill, David L and Engler, Dawson R|
-|[Pex{\textendash}white box test generation for. net](http://link.springer.com/chapter/10.1007/978-3-540-79124-9_10) |2008 |TAP |Tillmann, N and De Halleux, J|
+|[Pex - White Box Test Generation for .NET](http://link.springer.com/chapter/10.1007/978-3-540-79124-9_10) |2008 |TAP |Tillmann, N and De Halleux, J|
 |[Demand-driven compositional symbolic execution](http://link.springer.com/chapter/10.1007/978-3-540-78800-3_28) |2008 |TACAS |Anand, S and Godefroid, P and Tillmann, N|
 |[RWset: Attacking Path Explosion in Constraint-Based Test Generation.](http://dx.doi.org/10.1007/978-3-540-78800-3_27) |2008 |TACAS |Boonstoppel, Peter and Cadar, Cristian and Engler, Dawson R|
 |[Using Dynamic Symbolic Execution to Improve Deductive Verification](http://link.springer.com/chapter/10.1007/978-3-540-85114-1_4) |2008 |SPIN |Vanoverberghe, Dries and Bjrner, Nikolaj and Halleux, Jonathan and Schulte, Wolfram and Tillmann, Nikolai|
@@ -155,7 +155,7 @@
 |[Randomized directed testing (REDIRECT) for Simulink/Stateflow models](http://dl.acm.org/citation.cfm?id=1450058.1450088&coll=DL&dl=GUIDE&CFID=625744870&CFTOKEN=32502222) |2008 |EMSOFT |Satpathy, Manoranjan and Yeolekar, Anand and Ramesh, S|
 |[Active property checking](http://portal.acm.org/citation.cfm?doid=1450058.1450087) |2008 |EMSOFT |Godefroid, Patrice and Levin, Michael Y and Molnar, David A|
 |[Automatically identifying trigger-based behavior in malware](http://link.springer.com/chapter/10.1007/978-0-387-68768-1_4) |2008 |Botnet Detection |Brumley, D and Hartwig, C and Liang, Z and Newsome, J and Song, D|
-|[Better bug reporting with better privacy](http://portal.acm.org/citation.cfm?doid=1346281.1346322) |2008 |ASPLOS XIII: Proceedings of the 13th international conference on Architectural support for programming languages and operating systems |Castro, Miguel and Costa, Manuel and Martin, Jean-Philippe|
+|[Better bug reporting with better privacy](http://portal.acm.org/citation.cfm?doid=1346281.1346322) |2008 |ASPLOS |Castro, Miguel and Costa, Manuel and Martin, Jean-Philippe|
 |[Heuristics for Scalable Dynamic Test Generation](http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4639362) |2008 |ASE |Burnim, J and Sen, Koushik|
 |[Test-Suite Augmentation for Evolving Software](http://ieeexplore.ieee.org.ezlibproxy1.ntu.edu.sg/articleDetails.jsp?arnumber=4639325) |2008 |ASE |Santelices, R and Chittimalli, P K and Apiwattanapong, T and Orso, A and Harrold, M J|
 |[Context-Sensitive Relevancy Analysis for Efficient Symbolic Execution](http://link.springer.com/chapter/10.1007/978-3-540-89330-1_4) |2008 |APLAS |Li, Xin and Shannon, Daryl and Ghosh, Indradeep and Ogawa, Mizuhito and Rajan, Sreeranga P and Khurshid, Sarfraz|

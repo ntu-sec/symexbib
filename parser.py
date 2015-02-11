@@ -9,6 +9,10 @@ import sys
 import bibtexparser
 import re
 
+class BibType:
+    PROC = 1
+    JOURNAL  = 2
+
 def getValue(entry, key):
     try:
         return entry[key]
@@ -22,6 +26,21 @@ def delKey(entry, key):
 
 def Englishize(s):
     return re.sub(r'(\\[\w\"\'\`\^]|\{|\})', '', s)
+
+def refine_title(entry):
+    title = getValue(entry, 'title')
+    if title[-1] == '.':
+        entry['title'] = title[:-1]
+
+venue_suffix = re.compile(r'\'[0-9]{2,4}$')
+def refine_venue(entry):
+# TODO should recognize type !
+    if 'booktitle' in entry:
+        venue = entry['booktitle'] 
+        if not re.search(venue_suffix, venue):
+            new_venue = venue + ' \'' + str(getValue(entry, 'year')[-2:]) 
+            print('{:80} {:}'.format(venue, new_venue))
+            entry['booktitle'] = new_venue
 
 if len(sys.argv) < 2:
     print("usage: {} bibtex_file".format(sys.argv[0]))
@@ -64,5 +83,8 @@ with open(mkd_fname, 'w') as md:
 for entry in entry_list:
     for k in ['read', 'rating', 'date-added', 'date-modified', 'language', 'uri', 'abstract', 'local-url', 'file']:
         delKey(entry, k)
+    refine_title(entry)
+    # refine_venue(entry)
+
 with open(filename, 'w') as newbib:
     bibtexparser.dump(bib_database, newbib)
