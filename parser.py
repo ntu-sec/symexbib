@@ -27,6 +27,14 @@ def delKey(entry, key):
 def Englishize(s):
     return re.sub(r'(\\[\w\"\'\`\^]|\{|\})', '', s)
 
+LIBPROXY = '.ezlibproxy1.ntu.edu.sg'
+def plain_link(entry):
+    link = getValue(entry, 'link')
+    if LIBPROXY in link:
+        link = link.replace(LIBPROXY, '')
+        entry['link'] =  link
+    return link
+
 def refine_title(entry):
     title = getValue(entry, 'title')
     if title[-1] == '.':
@@ -65,7 +73,7 @@ for entry in entry_list:
     if 'journal' in entry:
         venue = entry['journal']
     title = getValue(entry, 'title')
-    link = getValue(entry, 'link')
+    link = plain_link(entry)
     author = getValue(entry, 'author')
     author = Englishize(author)
     if '\\' in author:
