@@ -1,17 +1,16 @@
 #!/usr/bin/env python
 
-# remove section read/rating/date-added/date-modified/abstract/local-url/file
-# remove accents
-
 from __future__ import print_function
 import os
 import sys
 import bibtexparser
 import re
 
+
 class BibType:
     PROC = 1
-    JOURNAL  = 2
+    JOURNAL = 2
+
 
 def getValue(entry, key):
     try:
@@ -20,20 +19,25 @@ def getValue(entry, key):
         print("no '{}' for '{}'".format(key, entry['id']))
         exit(1)
 
+
 def delKey(entry, key):
     if key in entry:
         del entry[key]
+
 
 def Englishize(s):
     return re.sub(r'(\\[\w\"\'\`\^]|\{|\})', '', s)
 
 LIBPROXY = '.ezlibproxy1.ntu.edu.sg'
+
+
 def plain_link(entry):
     link = getValue(entry, 'link')
     if LIBPROXY in link:
         link = link.replace(LIBPROXY, '')
-        entry['link'] =  link
+        entry['link'] = link
     return link
+
 
 def refine_title(entry):
     title = getValue(entry, 'title')
@@ -41,12 +45,14 @@ def refine_title(entry):
         entry['title'] = title[:-1]
 
 venue_suffix = re.compile(r'\'[0-9]{2,4}$')
+
+
 def refine_venue(entry):
-# TODO should recognize type !
+    # TODO should recognize type !
     if 'booktitle' in entry:
-        venue = entry['booktitle'] 
+        venue = entry['booktitle']
         if not re.search(venue_suffix, venue):
-            new_venue = venue + ' \'' + str(getValue(entry, 'year')[-2:]) 
+            new_venue = venue + ' \'' + str(getValue(entry, 'year')[-2:])
             print('{:80} {:}'.format(venue, new_venue))
             entry['booktitle'] = new_venue
 
@@ -89,7 +95,8 @@ with open(mkd_fname, 'w') as md:
         md.write(out)
 
 for entry in entry_list:
-    for k in ['read', 'rating', 'date-added', 'date-modified', 'language', 'uri', 'abstract', 'local-url', 'file']:
+    for k in ['read', 'rating', 'date-added', 'date-modified',
+              'language', 'uri', 'abstract', 'local-url', 'file']:
         delKey(entry, k)
     refine_title(entry)
     # refine_venue(entry)
